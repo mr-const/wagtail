@@ -8,7 +8,7 @@ var COMMON_PATH = './wagtail/wagtailadmin/static/wagtailadmin/js/common.js';
 
 function appName(filename) {
   return _(filename)
-    .split(path.sep)
+    .split('/')
     .get(2);
 }
 
